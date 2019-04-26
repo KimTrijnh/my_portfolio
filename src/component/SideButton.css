@@ -2,7 +2,7 @@
     background: black
   }
 
- .side-btn:hover {
+ .side-btn {
     position: absolute;
     background: #1318ad;
     width: 50px;
@@ -14,6 +14,7 @@
     z-index: 2
   }
   
+
   .sideBtn-text {
     display: inline-block;
     transform: rotate(270deg);
@@ -21,3 +22,7 @@
     font-size: 1rem;
     letter-spacing: 1
   }
+
+.btn-test {
+  background: red;
+}

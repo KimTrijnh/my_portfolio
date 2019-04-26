@@ -10,7 +10,6 @@ export default class App extends Component {
       <Navbar />
       <Main />
       <Footer />
-        
       </div>
     )
   }

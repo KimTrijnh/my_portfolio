@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 const Style = {
     color: 'white',
@@ -7,9 +8,7 @@ const Style = {
 const NavLink = (props) => {
   return (
     <div className="p-2 mx-2" style={Style}>
-    <a href="#" style={{color: 'white'}}>
-    {props.text}
-    </a>
+    <Link to={props.link}>{props.text}</Link>
     </div>
      )
 }
