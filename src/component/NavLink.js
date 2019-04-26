@@ -8,7 +8,7 @@ const Style = {
 const NavLink = (props) => {
   return (
     <div className="p-2 mx-2" style={Style}>
-    <Link to={props.link}>{props.text}</Link>
+    <Link className="light-primary" to={props.link}>{props.text}</Link>
     </div>
      )
 }
