@@ -11,7 +11,7 @@ export default class Main extends Component {
     return (
       <div className="main">
         <div className="bg-img">
-        <div className="bg-blur"></div>
+        {/* <div className="bg-blur"></div> */}
         </div>
         <div class="bg-text">
           <h1 >Hi, I'm Huong</h1>
